@@ -20,6 +20,10 @@ pip freeze > requirements.txt
 # Criar a pasta do projeto django
 django-admin startproject Workshop .
 
+# Criar uma pasta app
+
+python magane.py startapp
+
 # Migrar banco de dados 
 python manage.py makemigrations
 python magane.py migrate
